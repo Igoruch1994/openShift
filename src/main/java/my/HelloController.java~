@@ -12,7 +12,7 @@ public class HelloController {
     @RequestMapping(value="/hello", method = RequestMethod.GET, produces = "application/json")
     public HelloObject getHelloWordMessage(){
         HelloObject helloObject = new HelloObject();
-        helloObject.setMessage("Hello word. Life is good");
+        helloObject.setMessage("Hello word. Life is good...");
         return helloObject;
     }
 }
